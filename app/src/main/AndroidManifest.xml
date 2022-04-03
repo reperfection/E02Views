@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.E02Views">
         <activity
+            android:name=".SpinnersActivity"
+            android:exported="@string/action_spinners" />
+        <activity
             android:name=".CheckboxesActivity"
             android:label="@string/action_checkboxes" />
         <activity

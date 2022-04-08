@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.E02Views">
         <activity
+            android:name=".AlertsActivity"
+            android:label="@string/action_alerts" />
+        <activity
             android:name=".SpinnersActivity"
             android:exported="@string/action_spinners" />
         <activity
